@@ -200,6 +200,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 10px;
+    border: 2px solid;
     font-size: 18px;
     padding: 20px 40px;
 }
