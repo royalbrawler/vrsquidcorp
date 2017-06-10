@@ -22,6 +22,17 @@ body {
     color: #EAB64D;
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 3px solid #127c56;
+    border-bottom-color: transparent;
+}
+.nav-tabs {
+    border-bottom: 3px solid #127c56;
+}
+
 .kappa:hover,
 .kappa:focus,
 .kappa:active,
@@ -82,7 +93,7 @@ p {
     line-height: 1.75;
 }
 .tabShit {
-    border-radius: 40px 40px 0 0 !important;
+    border-radius: 40px 40px 40px 40px !important;
     padding: 10px 30px !important;
 }
 
