@@ -26,11 +26,8 @@ body {
     color: #555;
     cursor: default;
     background-color: #fff;
-    border: 3px solid #127c56;
+    border: 1px solid #127c56;
     border-bottom-color: transparent;
-}
-.nav-tabs {
-    border-bottom: 3px solid #127c56;
 }
 
 .kappa:hover,
@@ -200,7 +197,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 10px;
-    border: 2px solid;
+    border: 1px solid;
     font-size: 18px;
     padding: 20px 40px;
 }
