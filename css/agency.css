@@ -56,7 +56,7 @@ fieldset[disabled] .kappa.active {
 }
 
 section#contact {
-    background-color: #3D262A;
+    background-color: #333;
 }
 
 section#contact .section-heading {
@@ -137,7 +137,7 @@ h6 {
 }
 
 .bg-darkest-gray {
-    background-color: #3D262A;
+    background-color: #333;
 }
 
 .btn-primary {
@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom {
-    background-color: #3D262A;
+    background-color: #333;
     border-color: transparent;
 }
 
@@ -330,7 +330,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media (min-width: 768px) {
     .navbar-custom.affix {
-        background-color: #3D262A;
+        background-color: #333;
         padding: 10px 0;
     }
 
@@ -661,7 +661,7 @@ section h3.section-subheading {
     }
 
     section#contact {
-        background-color: #3D262A;
+        background-color: #333;
         background-image: url('../img/map-image.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -753,7 +753,7 @@ section h3.section-subheading {
 
     ul.social-buttons li a {
         display: block;
-        background-color: #3D262A;
+        background-color: #333;
         height: 40px;
         width: 40px;
         border-radius: 100%;
