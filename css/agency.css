@@ -248,10 +248,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .navbar-brand {
-    color: #ECF3F6;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+    width:125px;
+    height:25px;
+    background-image:url(../img/transparent120x25.png);
+    background-repeat:no-repeat;
+    margin:10px 0 0 5px; /*better position*/
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -317,10 +318,10 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-custom .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
+        width:200px;
+        height:41px;
+        background-image:url(../img/transparent200x41.png);
+        background-repeat:no-repeat;
     }
 
     .navbar-custom .navbar-nav > .active > a {
