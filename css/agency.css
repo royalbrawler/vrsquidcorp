@@ -8,21 +8,26 @@ body {
     /*font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .box {
     border-radius: 10px;
-    animation:pulse 0.5s infinite alternate;
+    animation: pulse 0.5s infinite alternate;
 }
 
 @keyframes pulse {
-    from { box-shadow:0px 0px 10px 3px #0066cc; }
-    to { box-shadow:0px 0px 20px 5px #0066cc; }
+    from {
+        box-shadow: 0px 0px 10px 3px #0066cc;
+    }
+    to {
+        box-shadow: 0px 0px 20px 5px #0066cc;
+    }
 }
 
 .kappa {
     color: #EAB64D;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     color: #555;
     cursor: default;
     background-color: #fff;
@@ -89,6 +94,7 @@ p {
     font-size: 16px;
     line-height: 1.75;
 }
+
 .tabShit {
     border-radius: 40px 40px 40px 40px !important;
     padding: 10px 30px !important;
@@ -248,11 +254,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .navbar-brand {
-    width:125px;
-    height:25px;
-    background-image:url(../img/transparent120x25.png);
-    background-repeat:no-repeat;
-    margin:10px 0 0 5px; /*better position*/
+    width: 125px;
+    height: 25px;
+    background-image: url(../img/transparent120x25.png);
+    background-repeat: no-repeat;
+    margin: 10px 0 0 5px; /*better position*/
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -318,10 +324,10 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-custom .navbar-brand {
-        width:200px;
-        height:41px;
-        background-image:url(../img/transparent200x41.png);
-        background-repeat:no-repeat;
+        width: 200px;
+        height: 41px;
+        background-image: url(../img/transparent200x41.png);
+        background-repeat: no-repeat;
     }
 
     .navbar-custom .navbar-nav > .active > a {
