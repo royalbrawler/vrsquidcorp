@@ -23,6 +23,7 @@ body {
     }
 }
 
+
 .kappa {
     color: #EAB64D;
 }
@@ -445,7 +446,10 @@ section h3.section-subheading {
 }
 
 @media (min-width: 767px) {
-
+    .ccc3kappa {
+        display: block;
+        align-items: center;
+    }
     .timeline {
         list-style: none;
         padding: 0;
@@ -560,6 +564,10 @@ section h3.section-subheading {
     }
 
     @media (min-width: 768px) {
+        .ccc3kappa {
+            display: flex;
+            align-items: center;
+        }
         .timeline:before {
             left: 50%;
         }
@@ -621,6 +629,10 @@ section h3.section-subheading {
         }
     }
     @media (min-width: 1200px) {
+        .ccc3kappa {            
+            display: flex;
+            align-items: center;
+        }
         .timeline > li {
             min-height: 170px;
         }
