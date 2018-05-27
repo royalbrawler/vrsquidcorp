@@ -565,8 +565,6 @@ section h3.section-subheading {
 
     @media (min-width: 768px) {
         .ccc3kappa {
-            min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-            min-height: 100vh; /* These two lines are counted as one :-)       */
             display: flex;
             align-items: center;
         }
@@ -631,9 +629,7 @@ section h3.section-subheading {
         }
     }
     @media (min-width: 1200px) {
-        .ccc3kappa {  
-            min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-            min-height: 100vh; /* These two lines are counted as one :-)       */          
+        .ccc3kappa {         
             display: flex;
             align-items: center;
         }
